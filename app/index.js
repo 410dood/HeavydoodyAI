@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import {StackNavigator} from 'react-navigation'
 
-class NoteTaker extends Component {
+class HeavyDoodyAI extends Component {
     render() {
         return (
             <View style={styles.container}>
@@ -32,4 +33,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default NoteTaker;
+export default HeavyDoodyAI;
